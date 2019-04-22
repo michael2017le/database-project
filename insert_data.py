@@ -1,6 +1,6 @@
 import mysql.connector
 import csv
-mysql = mysql.connector.connect(host="localhost", user = "root", password = "32461997", database = "Spy")
+mysql = mysql.connector.connect(host="localhost", user = "root", password = "Calculations99", database = "Spy")
 cursor = mysql.cursor(buffered=True)
 
 #Spy.AGENT
@@ -432,7 +432,6 @@ def insert_means_of_contact():
     for x in cursor:
         print(x)
 
-"""
 #execute insert commands
 insert_agent()
 insert_firearm()
@@ -449,6 +448,5 @@ insert_operator()
 insert_alias()
 insert_other()
 insert_means_of_contact()
-"""
 #commit changes
 mysql.commit()

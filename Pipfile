@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+mysql = "*"
+names = "*"
+faker = "*"
+mysql-connector-repackaged = "*"
+mysql-connector-python-rf = "*"
+mysql-connector-python = "*"
+
+[requires]
+python_version = "3.6"
